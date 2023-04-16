@@ -9,12 +9,15 @@
     "deploy": "yarn build && npx thirdweb@latest upload dist"
   },
   "dependencies": {
+    "@esbuild-plugins/node-globals-polyfill": "^0.2.3",
+    "@esbuild-plugins/node-modules-polyfill": "^0.2.2",
     "@thirdweb-dev/react": "^3.11.1",
     "@thirdweb-dev/sdk": "^3.10.5",
     "ethers": "^5.7.2",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "react-router-dom": "^6.10.0"
+    "react-router-dom": "^6.10.0",
+    "update": "^0.4.2"
   },
   "devDependencies": {
     "@vitejs/plugin-react": "^2",
